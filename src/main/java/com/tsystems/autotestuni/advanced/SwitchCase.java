@@ -21,16 +21,6 @@ public class SwitchCase {
      * @param level guest level: 1 (bronze), 2 (silver), 3 (gold)
      */
     public static void printBenefits(int level) {
-        switch (level) {
-            case 3:
-                System.out.println("\t included dinner for one");
-            case 2:
-                System.out.println("\t included breakfast");
-            case 1:
-                System.out.println("\t free parking");
-                System.out.println("\t included newspaper");
-            default:
-                System.out.println("\t room");
-        }
+        // FIXME: Implement code here
     }
 }

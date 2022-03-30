@@ -17,15 +17,7 @@ public class NestedLoops {
      * @param cols number of columns
      */
     public static void printMatrix(int rows, int cols) {
-        if (rows <= 0 || cols <= 0) {
-            return;
-        }
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                System.out.print("(" + (i+1) + "," + (j+1) + ")");
-            }
-            System.out.println();
-        }
+        // FIXME: Implement code here
     }
 
     /**
@@ -40,17 +32,6 @@ public class NestedLoops {
      * Outside/after the end of the labeled block, print out {@code “Just saw a C5”} on a new line.
      */
     public static void printPatternWithLabels() {
-        String[] abc = { "A", "B", "C" };
-        POINT_A:
-        for (String s : abc) {
-            for (int j = 1; j <= 10; j++) {
-                String letterWithIndex = String.format("%s%d", s, j);
-                if (letterWithIndex.equals("C5")) break POINT_A;
-                System.out.print(letterWithIndex);
-                System.out.print(" ");
-            }
-            System.out.println();
-        }
-        System.out.println(System.lineSeparator() +"Just saw a C5");
+        // FIXME: Implement code here
     }
 }
