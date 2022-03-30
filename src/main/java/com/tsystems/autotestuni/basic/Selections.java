@@ -12,13 +12,7 @@ public class Selections {
      * @return one of three possible strings described above
      */
     public static String whatShouldIWear(double temperature) {
-        if (temperature < 15) {
-            return "Cold enough to wear a coat";
-        } else if (temperature < 20) {
-            return "Cold enough to wear a jacket";
-        } else {
-            return "No outerwear required!";
-        }
+        return ""; // FIXME: Implement code here
     }
 
     /**
@@ -29,24 +23,6 @@ public class Selections {
      * @return 31, 30, or 28
      */
     public static int howManyDaysInMonth(int numberInYear) {
-        switch (numberInYear) {
-            case 1:
-            case 3:
-            case 5:
-            case 7:
-            case 8:
-            case 10:
-            case 12:
-                return 31;
-            case 4:
-            case 6:
-            case 9:
-            case 11:
-                return 30;
-            case 2:
-                return 28;
-            default:
-                return -1;
-        }
+        return 0; // FIXME: Implement code here
     }
 }

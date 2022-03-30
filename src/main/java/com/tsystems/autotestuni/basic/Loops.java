@@ -12,13 +12,7 @@ public class Loops {
      * @return the su of digits
      */
     public static int sumOfDigits(int number) {
-        int sum = 0;
-        do {
-            int digit = number % 10;
-            sum += digit;
-            number /= 10;
-        } while (number != 0);
-        return sum;
+        return 0; // FIXME: Implement code here
     }
 
     /**
@@ -32,12 +26,6 @@ public class Loops {
      * @return the number of odd integers.
      */
     public static int oddNumbersInRange(int start, int end) {
-        int count = 0;
-        for (int i = start; i < end; i++) {
-            if (i % 2 != 0) {
-                count++;
-            }
-        }
-        return count;
+        return 0; // FIXME: Implement code here
     }
 }
